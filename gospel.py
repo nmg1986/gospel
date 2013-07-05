@@ -2,12 +2,12 @@
 # -*- coding:utf-8 -*-
 
 import gtk
-import softcenter
-import serverpool
-import deploy
-import configmanager
-import testcenter
-import operation
+import bin.softcenter as softcenter
+import bin.serverpool as serverpool
+import bin.deploy as deploy
+import bin.configmanager as configmanager
+import bin.testcenter as testcenter
+import bin.operation as operation
 
 #MAIN_WINDOW_WIDTH=915
 #MAIN_WINDOW_HEIGHT=614
